@@ -15,29 +15,29 @@
   {$GLOBAL.statistics.analytics.code nofilter}
   {/if}
   <link href="https://unpkg.com/bootstrap-rin@3.3.7-2/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link href="{$PATH}/css/bootstrap-switch.min.css" rel="stylesheet">
-  <link href="{$PATH}/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-  <link href="{$PATH}/css/plugins/morris/morris-0.5.1.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-switch/3.3.2/css/bootstrap3/bootstrap-switch.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.css" rel="stylesheet">
   <link href="{$PATH}/css/plugins/timeline/timeline.css" rel="stylesheet">
-  <link href="{$PATH}/css/plugins/dataTables/dataTables.bootstrap.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.12/css/dataTables.bootstrap.min.css" rel="stylesheet">
   <link href="{$PATH}/css/mpos.css" rel="stylesheet">
-  <link href="{$PATH}/css/plugins/metisMenu/metisMenu.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/metisMenu/2.5.2/metisMenu.min.css" rel="stylesheet">
   <link href="{$PATH}/css/sparklines.css" rel="stylesheet">
   {if $GLOBAL.config.website_design|default:"default" != "default"}
   <link href="{$PATH}/css/design/{$GLOBAL.config.website_design}.css" rel="stylesheet">
   {/if}
   
-  <script src="{$PATH}/js/jquery.min.js"></script>
-  <script src="{$PATH}/js/jquery.cookie.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
   <script src="{$PATH}/js/jquery.md5.js"></script>
-  <script src="{$PATH}/js/bootstrap.min.js"></script>
-  <script src="{$PATH}/js/bootstrap-switch.min.js"></script>
-  <script src="{$PATH}/js/plugins/dataTables/jquery.dataTables.js"></script>
-  <script src="{$PATH}/js/plugins/dataTables/dataTables.bootstrap.js"></script>
-  <script src="{$PATH}/js/plugins/metisMenu/jquery.metisMenu.js"></script>
-  <script src="{$PATH}/js/plugins/raphael-2.1.2.min.js"></script>
-  <script src="{$PATH}/js/plugins/morris/morris-0.5.1.min.js"></script>
-  <script src="{$PATH}/js/plugins/sparkline/jquery.sparkline.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-switch/3.3.2/js/bootstrap-switch.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.12/js/jquery.dataTables.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.12/js/dataTables.bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/metisMenu/2.5.2/metisMenu.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.2/raphael-min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-sparklines/2.1.2/jquery.sparkline.min.js"></script>
   <script src="{$PATH}/js/mpos.js"></script>
 </head>
 <body>
